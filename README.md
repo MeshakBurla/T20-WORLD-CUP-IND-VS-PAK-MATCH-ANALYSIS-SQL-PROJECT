@@ -35,7 +35,7 @@ The India vs Pakistan 2024 Project aims to explore and develop avenues for colla
 ## Project structure
 
     1.Database Setup
-      •	Schema Creation: The project starts by creating named T20_WORLDCUP_IND_VS_PAK.
+      •	Schema Creation: The project starts by creating named [T20_WORLDCUP_IND_VS_PAK].
       •	Table Creation: I create two tables [bowling.info] and [bowlers.info] using keys
         [primary key & foreign key],[T20_WORLDCUP_IND_VS_PAK].[BATTING.INFO1].
       •	[T20_WORLDCUP_IND_VS_PAK].[BOWLING.INFO3]is created to store the players data. The table structure includes Columns for PLAYER_ID [PRIMARY KEY], 
@@ -47,15 +47,15 @@ The India vs Pakistan 2024 Project aims to explore and develop avenues for colla
      •	Best Score: Identify best score player name in the dataset.
      
      ```SQL
-          SELECT PLAYER_NAME,TEAM 
-          FROM [T20_WORLDCUP_IND_VS_PAK].[BATTING_INFO1] ;
+     SELECT PLAYER_NAME,TEAM 
+     FROM [T20_WORLDCUP_IND_VS_PAK].[BATTING_INFO1] ;
+     
+     SELECT PLAYER_NAME,TEAM 
+     FROM [T20_WORLDCUP_IND_VS_PAK].[BOWLING_INFO3];
 
-          SELECT PLAYER_NAME,TEAM 
-          FROM [T20_WORLDCUP_IND_VS_PAK].[BOWLING_INFO3];
-
-          SELECT PLAYER_NAME,TEAM,MAX(RUNS) AS BEST_SCORE 
-          FROM [T20_WORLDCUP_IND_VS_PAK].[BATTING_INFO1] 
-          GROUP BY PLAYER_NAME,TEAM;
+     SELECT PLAYER_NAME,TEAM,MAX(RUNS) AS BEST_SCORE 
+     FROM [T20_WORLDCUP_IND_VS_PAK].[BATTING_INFO1] 
+     GROUP BY PLAYER_NAME,TEAM;
       ```
    
 
