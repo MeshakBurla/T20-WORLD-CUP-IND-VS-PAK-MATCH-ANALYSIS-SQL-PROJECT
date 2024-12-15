@@ -46,7 +46,7 @@ The India vs Pakistan 2024 Project aims to explore and develop avenues for colla
      •	Players count in bowling: Find out how many unique players in the dataset.
      •	Best Score: Identify best score player name in the dataset.
      
-     ```SQL
+     ```sql
      SELECT PLAYER_NAME,TEAM 
      FROM [T20_WORLDCUP_IND_VS_PAK].[BATTING_INFO1] ;
      
