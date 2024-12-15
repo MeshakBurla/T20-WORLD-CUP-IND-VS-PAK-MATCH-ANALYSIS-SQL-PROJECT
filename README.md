@@ -82,6 +82,7 @@ FOREIGN KEY(PLAYER_ID) REFERENCES [T20_WORLDCUP_IND_VS_PAK].[BATTING_INFO1](PLAY
 
  ### 3.Data Analysis & Findings
  The following SQL queries were developed to answer specific players questions:
+ 
 --Q1 WHICH PLAYERS SCORED <15 FOR INDIA?    
 ```sql
 SELECT PLAYER_NAME,RUNS FROM [T20_WORLDCUP_IND_VS_PAK].[BATTING_INFO1]
