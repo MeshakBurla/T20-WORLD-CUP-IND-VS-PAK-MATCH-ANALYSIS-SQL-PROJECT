@@ -1,4 +1,4 @@
-# T20-WORLD-CUP-IND-VS-PAK-MATCH-ANALYSIS-SQL-PROJECT
+# T20 World Cup Match Analysis: India vs Pakistan
 
 ## Project Overview
 
